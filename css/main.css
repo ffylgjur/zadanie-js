@@ -1,0 +1,117 @@
+header {
+  height: 80px;
+  box-shadow: 0px 26px 24px -20px rgba(83, 66, 90, 0.5);
+}
+
+.maintitle {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 16px;
+  background-color: #62116c;
+  gap: 60px;
+  padding-left: 80px;
+}
+
+.navigation {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.menu {
+  display: flex;
+  font-family: "Varta";
+  list-style: none;
+  gap: 40px;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+body {
+  font-family: "Joan";
+  color: #fff;
+  margin: 0 auto;
+  background: #8076a3;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.article-section {
+  padding-top: 150px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.image {
+  display: block;
+  width: 90%;
+  height: 500px;
+  border-radius: 50px;
+  border: 2px solid white;
+  margin: auto;
+  overflow: hidden;
+  transition: background-image 3000ms linear;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Lavandula_stoechas_.jpg/1280px-Lavandula_stoechas_.jpg);
+}
+
+.image:hover,
+.image:focus {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Lavandas_na_Serra_da_Bocaina.jpg/1280px-Lavandas_na_Serra_da_Bocaina.jpg);
+}
+
+.articleTitle {
+  margin: 50px;
+  font-size: 20px;
+  font-size: 1.9em;
+}
+
+.articleDescription {
+  font-family: "Varta";
+  font-weight: 400;
+  font-size: 1.7em;
+  text-align: justify;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  font-family: "Varta";
+  font-size: 1.5em;
+  background-color: #8076a3;
+  border-color: #fff;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #62116c;
+  transition: all 5ms linear;
+}/*# sourceMappingURL=main.css.map */

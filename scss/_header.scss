@@ -1,0 +1,32 @@
+header {
+    height: 80px;
+    box-shadow:0px 26px 24px -20px rgba(83, 66, 90, 0.5) ;
+
+}
+.maintitle {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    background-color: $font-color;
+    gap:60px;
+    padding-left: 80px;
+}
+.navigation {
+    margin-left: auto;
+    margin-right: 50px;
+}
+.menu {
+   display: flex;
+   font-family: $secondary-font;
+   list-style: none;
+    gap: 40px;
+    }
+
+    .navigation-link {
+        text-decoration: none;
+        color: $main-color;
+        font-size: 18px;
+    }
