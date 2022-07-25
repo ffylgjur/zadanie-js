@@ -19,3 +19,7 @@ const createTitle = (myName) => {
 }
 
 createTitle("Barbara Ślęczka");
+
+const btn = document.getElementById("Btn");
+
+btn.addEventListener("click",()=> location.href="https://pl.wikipedia.org/wiki/Lawenda")
